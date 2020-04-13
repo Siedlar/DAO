@@ -4,7 +4,7 @@ import java.util.List;
 public class UserDAOImpl implements UserDAO{
     private List<User> listaUser;
 
-    public UserDAOImpl(List<User> listaUser) {
+    public UserDAOImpl() {
         listaUser=new ArrayList<User>();
         listaUser.add(new User("Krystian","Siedlarski",23,1));
         listaUser.add(new User("Werka","Piekacz",22,2));
