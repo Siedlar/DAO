@@ -6,8 +6,8 @@ public class UserDAOImpl implements UserDAO{
 
     public UserDAOImpl() {
         listaUser=new ArrayList<User>();
-        listaUser.add(new User("Krystian","Siedlarski",23,1));
-        listaUser.add(new User("Werka","Piekacz",22,2));
+        listaUser.add(new User("Krystian","Siedlarski",23,0));
+        listaUser.add(new User("Werka","Piekacz",22,1));
     }
 
 
